@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+runs/
+preds/
+*.pt
+*.pth
+data/*
+!data/.gitkeep
+.DS_Store

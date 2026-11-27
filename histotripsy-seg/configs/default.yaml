@@ -1,0 +1,11 @@
+data_dir: data/synthetic      # must contain images/ and masks/
+img_size: 256
+val_fraction: 0.2
+seed: 42
+batch_size: 8
+epochs: 50
+lr: 0.0003
+weight_decay: 0.0001
+base_channels: 32
+num_workers: 2
+out_dir: runs/exp1
