@@ -1,0 +1,20 @@
+.git
+.gitignore
+.venv
+__pycache__
+*.pyc
+.pytest_cache
+.vscode
+.idea
+# Never bake data, outputs or model weights into the image
+data
+runs
+preds
+*.pt
+*.pth
+*.zip
+# Docker files themselves
+Dockerfile
+docker-compose.yml
+.dockerignore
+README.md

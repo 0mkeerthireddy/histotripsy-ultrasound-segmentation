@@ -11,7 +11,7 @@ from src.model import UNet
 
 
 def load_model(ckpt_path, device):
-    ckpt = torch.load(ckpt_path, map_location=device)
+    ckpt = torch.load(ckpt_path, map_location=device, weights_only=True)
     cfg = ckpt["cfg"]
     model = UNet(base=cfg["base_channels"]).to(device)
     model.load_state_dict(ckpt["model"])

@@ -1,7 +1,6 @@
-torch>=2.0
-numpy>=1.24
-pillow>=10.0
-tqdm>=4.65
-pyyaml>=6.0
-matplotlib>=3.7
-pytest>=7.0
+# Runtime dependencies (pinned for reproducible builds)
+torch==2.5.1
+numpy==1.26.4
+pillow==10.4.0
+tqdm==4.66.5
+pyyaml==6.0.2
